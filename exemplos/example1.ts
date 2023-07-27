@@ -8,7 +8,7 @@ function delay(ms: number) {
 
 // Habilita uma conta, emite valores e destrói valores.
 async function example1() {
-    const STR = await ethers.getContractAt(abiSTR, '<Endereço do contrato SRT>');
+    const STR = await ethers.getContractAt(abiSTR, '<Endereço do contrato STR>');
     const enableAccount = await ethers.getContractAt(abiRealDigitalEnableAccount, '<Endereço do contrato RealDigitalEnableAccount>');
     const [, participantX, anotherAddressParticipantX ] = await ethers.getSigners();
 
